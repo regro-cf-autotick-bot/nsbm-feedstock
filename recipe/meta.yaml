@@ -1,5 +1,5 @@
 {% set name = "nsbm" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fvalle1/trisbm/archive/refs/tags/{{ version }}.tar.gz
-  sha256: ebce734c6e8782b33c2e14e35da57764b1db5ad7933df86bddf6d893d304c161
+  sha256: 6ccf6ddd42d061cd67073ed12ed78465c9cebbcd06523b0e5038b2e3466aa0c4
 
 build:
   noarch: python
