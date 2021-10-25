@@ -1,5 +1,5 @@
 {% set name = "nsbm" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/fvalle1/trisbm/archive/refs/tags/{{ version }}.tar.gz
-  sha256: a83fe33f8b54d12a45add2cc508ac8293c2ea9422ab622ad0c19dd95a8c47b80
+  sha256: 145313aa44be552029404b6b71491e1e9172a8b48ed6792e46da2b51bf32d0fe
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
-  summary: 'nSBM, keyword informed topic modeling'
+  summary: nSBM, keyword informed topic modeling
   description: |
     Package to run n-partite Stocastich Block Modeling.
   doc_url: https://fvalle1.github.io/trisbm/
