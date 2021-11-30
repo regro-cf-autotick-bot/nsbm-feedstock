@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -36,7 +36,7 @@ test:
     - python tests/run_tests.py
 
 about:
-  home: https://github.com/fvalle1/nsbm
+  home: https://github.com/BioPhys-Turin/nsbm
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
