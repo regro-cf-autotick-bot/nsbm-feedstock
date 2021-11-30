@@ -1,7 +1,7 @@
 About nsbm
 ==========
 
-Home: https://github.com/fvalle1/trisbm
+Home: https://github.com/fvalle1/nsbm
 
 Package license: GPL-3.0-only
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nsbm-feedstock/
 
 Summary: nSBM, keyword informed topic modeling
 
-Development: https://github.com/fvalle1/trisbm
+Development: https://github.com/fvalle1/nsbm
 
-Documentation: https://fvalle1.github.io/trisbm/
+Documentation: https://fvalle1.github.io/nsbm/
 
 Package to run n-partite Stocastich Block Modeling.
 
@@ -62,7 +62,8 @@ conda search nsbm --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
