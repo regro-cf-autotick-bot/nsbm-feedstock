@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fvalle1/trisbm/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 145313aa44be552029404b6b71491e1e9172a8b48ed6792e46da2b51bf32d0fe
+  sha256: afac3c06847685c30691f109ca583fa6f2e31745e8eebe598d3cdef67ff404dd
 
 build:
   noarch: python
