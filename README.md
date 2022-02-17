@@ -1,7 +1,7 @@
 About nsbm
 ==========
 
-Home: https://github.com/fvalle1/nsbm
+Home: https://github.com/BioPhys-Turin/nsbm
 
 Package license: GPL-3.0-only
 

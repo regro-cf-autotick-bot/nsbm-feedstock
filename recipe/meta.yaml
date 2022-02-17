@@ -11,8 +11,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -40,7 +40,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
-  summary: 'nSBM, keyword informed topic modeling'
+  summary: nSBM, keyword informed topic modeling
   description: |
     Package to run n-partite Stocastich Block Modeling.
   doc_url: https://fvalle1.github.io/nsbm/
